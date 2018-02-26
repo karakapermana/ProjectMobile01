@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.permana.projectmobile01.MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+       <EditText
+           android:id="@+id/lblUserName"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="UserName"/>
+       <EditText
+           android:id="@+id/lblPassword"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Password"
+           android:inputType="textPassword"/>
+       <Button
+           android:id="@+id/btnLogin"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="LOGIN"/>
+       <Button
+           android:id="@+id/btnRegister"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="REGISTER"/>
+   </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
